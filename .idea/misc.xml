@@ -5,8 +5,10 @@
       <map>
         <entry key="..\:/AndroidStudioProjects/Random/app/src/main/res/drawable/button_shap.xml" value="0.22136752136752136" />
         <entry key="..\:/AndroidStudioProjects/Random/app/src/main/res/drawable/my_border.xml" value="0.22136752136752136" />
+        <entry key="..\:/AndroidStudioProjects/Random/app/src/main/res/font/song.xml" value="0.18564814814814815" />
         <entry key="..\:/AndroidStudioProjects/Random/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/Random/app/src/main/res/layout/activity_pg1.xml" value="0.22546296296296298" />
+        <entry key="..\:/AndroidStudioProjects/Random/app/src/main/res/layout/activity_pg3.xml" value="0.176" />
       </map>
     </option>
   </component>
