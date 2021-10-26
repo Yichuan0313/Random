@@ -12,7 +12,6 @@
         android:layout_height="262dp"
         android:fontFamily="@font/song"
         android:lineSpacingExtra="12sp"
-        android:text="    我希望海水还是蓝的，仰望天空时太阳不是灰的，与爱的联络不是靠电子产品，希望穿山甲不是博物馆的展品。"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

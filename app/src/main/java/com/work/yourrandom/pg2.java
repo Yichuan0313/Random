@@ -26,7 +26,7 @@ public class pg2 extends AppCompatActivity implements Runnable{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pg2);
-
+        findViewById(R.id.next).callOnClick();
     }
 
     public void onclick(View view) throws IOException {
@@ -37,7 +37,7 @@ public class pg2 extends AppCompatActivity implements Runnable{
                 public void handleMessage(Message msg){
                     if(msg.what==7){
                         String s = (String) msg.obj;
-                        Log.i(TAG, "handleMessage: "+s);
+                        Log.i(TAG, "handleMessage: 获取了一言");
                         result = (TextView) findViewById(R.id.sentence);
                         result.setText(s);
                     }
@@ -53,11 +53,11 @@ public class pg2 extends AppCompatActivity implements Runnable{
 
     @Override
     public void run() {
-        try {
-            Thread.sleep(500);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            Thread.sleep(500);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         Message msg=handler.obtainMessage(7);
         try {
             Document doc = Jsoup.connect("https://hitokoto.cn/").get();

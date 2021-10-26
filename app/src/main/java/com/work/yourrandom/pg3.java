@@ -80,7 +80,7 @@ public class pg3 extends AppCompatActivity implements Runnable{
                 public void handleMessage(Message msg){
                     if(msg.what==5){
                         String s = (String) msg.obj;
-                        Log.i(TAG, "handleMessage: "+s);
+                        Log.i(TAG, "handleMessage: 获取了翻译");
                         translation = (TextView) findViewById(R.id.translation);
                         translation.setText(Html.fromHtml(s));
                     }
